@@ -162,9 +162,10 @@ i {
   justify-content: center;
 }
 
-.menu {
+.menu ul {
   position: relative;
   list-style: none;
+  color: #111;
 }
 
 .menu ul li a {
@@ -174,6 +175,23 @@ i {
 }
 
 .menu ul li a:hover {
+  color: var(--overlay-color);
+}
+
+.close-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+}
+
+.close-menu i {
+  color: rgb(0, 0, 0);
+  padding: 20px 20px;
+  font-size: 30px;
+}
+
+.close-menu i:hover {
   color: var(--overlay-color);
 }
 
