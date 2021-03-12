@@ -22,6 +22,7 @@
   background-color: black;
   color: white;
   z-index: 2;
+  transition: 1s;
 }
 
 .showcase.active {
@@ -82,6 +83,7 @@
 }
 
 .text {
+  margin-top: 100px;
   position: relative;
   z-index: 10;
 }
